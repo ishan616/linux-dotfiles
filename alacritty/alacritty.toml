@@ -1,0 +1,28 @@
+[font]
+size = 14.0
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "Full"
+opacity = 0.75
+blur = true
+dynamic_title = true
+
+[cursor]
+style = {shape = "Underline", blinking = "Off"}
+vi_mode_style = {shape = "Block", blinking = "Off"}
