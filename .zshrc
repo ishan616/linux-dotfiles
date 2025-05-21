@@ -17,7 +17,7 @@ autoload -Uz promptinit
 promptinit
 
 # This will set the default prompt to the walters theme
-prompt fade 'blue'
+prompt fade 'black gray blue'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
