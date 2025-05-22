@@ -20,6 +20,16 @@
       "default": "  "
     }
   },
+  "battery": {
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""],
+    "max-length": 25
+  },
   "clock": {
     "timezone": "America/New_York",
     "tooltip-format": "<big><big>{:%Y %B}</big></big>\n<tt><big>{calendar}</big></tt>",
