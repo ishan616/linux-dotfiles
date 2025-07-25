@@ -10,5 +10,6 @@ ln -sf ~/linux-dotfiles/hypr ~/.config
 ln -sf ~/linux-dotfiles/nvim ~/.config
 ln -sf ~/linux-dotfiles/oh-my-posh ~/.config
 ln -sf ~/linux-dotfiles/waybar ~/.config
+ln -sf ~/linux-dotfiles/wlogout ~/.config
 ln -sf ~/linux-dotfiles/wofi ~/.config
 ln -sf ~/linux-dotfiles/yazi ~/.config
