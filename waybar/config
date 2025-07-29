@@ -38,6 +38,7 @@
         "battery",
         "hyprland/language",
         "group/hardware",
+        "bluetooth",
         "custom/cliphist",
         "custom/exit",
         "clock",
