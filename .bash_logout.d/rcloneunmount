@@ -1,0 +1,5 @@
+for remote in $(rclone listremotes); do
+    /usr/bin/fusermount -uz $HOME/${remote:0:-1}
+done
+
+unset remote

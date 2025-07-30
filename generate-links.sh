@@ -2,9 +2,12 @@
 
 ln -sf ~/linux-dotfiles/.bashrc ~/
 ln -sf ~/linux-dotfiles/.bash_profile ~/
+ln -sf ~/linux-dotfiles/.bash_logout ~/
 ln -sf ~/linux-dotfiles/.profile ~/
 ln -sf ~/linux-dotfiles/.icons ~/
 
+ln -sf ~/linux-dotfiles/.bash_profile.d ~/
+ln -sf ~/linux-dotfiles/.bash_logout.d ~/
 ln -sf ~/linux-dotfiles/ghostty ~/.config
 ln -sf ~/linux-dotfiles/hypr ~/.config
 ln -sf ~/linux-dotfiles/nvim ~/.config
