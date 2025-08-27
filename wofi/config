@@ -1,8 +1,8 @@
 term=ghostty
+mode=run
 allow_images=true
 width=50%
 height=25%
-term=$(which ghopstty)
 gtk_dark=true
 image_size=50
 

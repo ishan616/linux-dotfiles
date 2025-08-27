@@ -1,0 +1,25 @@
+
+* {
+  border: none;
+}
+
+window {
+  font-size: 24px;
+  font-family: "FiraCode Nerd Font";
+  background-color: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,1);
+}
+
+#entry:selected {
+  background-color: rgba(0,0,0,1);
+}
+
+#text:selected {
+  background-color: rgba(0,0,0,1);
+  color: white;
+}
+
+#input {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
