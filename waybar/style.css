@@ -17,11 +17,9 @@
 }
 
 #workspaces button{
+  background: transparent;
   color: rgb(255,255,255);
-}
-
-#workspaces button:hover {
-  color: transparent;
+  border: 1px solid transparent;
 }
 
 #network {
