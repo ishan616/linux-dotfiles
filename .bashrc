@@ -6,7 +6,10 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias lsa='ls -la --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/custom_theme.omp.json)"
+

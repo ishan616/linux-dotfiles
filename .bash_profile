@@ -1,10 +1,5 @@
 # .bash_profile
 
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
-
 # User specific environment and startup programs
 export EDITOR=nvim
 export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
@@ -18,3 +13,10 @@ if [ -d ~/.bash_profile.d ]; then
   done
 fi
 unset profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
+

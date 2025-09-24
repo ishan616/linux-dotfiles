@@ -5,7 +5,7 @@ do
     mkdir $HOME/${remote:0:-1}
   fi
 
-  rclone mount $remote $HOME/${remote:0:-1} --vfs-cache-mode full &
+  rclone mount $remote $HOME/${remote:0:-1} --allow-non-empty --vfs-cache-mode full &
 done
 
 unset remote
