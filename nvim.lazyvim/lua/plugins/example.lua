@@ -121,20 +121,13 @@ return {
     opts = {
       ensure_installed = {
         "bash",
-        "html",
-        "javascript",
-        "json",
+        "latex",
         "lua",
-        "markdown",
-        "markdown_inline",
         "python",
-        "query",
         "regex",
-        "tsx",
-        "typescript",
         "vim",
-        "yaml",
       },
+      indent = { enable = true },
     },
   },
 
