@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 alias lsa='ls -la --color=auto'
 alias grep='grep --color=auto'
+alias nvim-lazyvim='NVIM_APPNAME="nvim.lazyvim" nvim'
+alias nvim-kickstart='NVIM_APPNAME="nvim.kickstart" nvim'
 PS1='[\u@\h \W]\$ '
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
