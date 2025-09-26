@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+ssh-add ~/.ssh/github_ed25519
+
