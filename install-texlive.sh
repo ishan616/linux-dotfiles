@@ -8,4 +8,5 @@ sudo perl ./install-tl --paper=letter --scheme=basic --no-interaction
 cd /usr/local/
 sudo chown -R $USER:$USER ./texlive/
 tlmgr install texliveonfly
+sudo pacman -S libxcrypt-compat # for biber compatibility
 cd

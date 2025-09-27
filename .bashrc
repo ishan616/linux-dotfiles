@@ -13,4 +13,4 @@ PS1='[\u@\h \W]\$ '
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/custom_theme.omp.json)"
 
-export NVIM_APPNAME="nvim.kickstart" #use astro/chad/kickstart/lazyvim
+export NVIM_APPNAME="nvim.lazyvim" #use astro/chad/kickstart/lazyvim
