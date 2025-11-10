@@ -1,0 +1,27 @@
+[Unit]
+Description=Rclone Mount for Remote Google Drive
+Documentation=https://rclone.org/docs/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=notify
+ExecStartPre=/bin/mkdir -p /home/ishan/CloudStorages/GoogleDrive
+ExecStart=/usr/bin/rclone mount GoogleDrive: /home/ishan/CloudStorages/GoogleDrive \
+    --config=/home/ishan/.config/rclone/rclone.conf \
+    --allow-other \
+    --allow-non-empty \
+    --vfs-cache-mode full \
+    --log-file /var/log/rclone-mount.log \
+    --log-level INFO
+ExecStop=/bin/fusermount -u /home/ishan/CloudStorages/GoogleDrive
+Restart=on-failure
+User=ishan
+Group=ishan
+Environment=PATH=/usr/bin:/bin
+TimeoutStopSec=10
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

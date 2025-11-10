@@ -1,0 +1,10 @@
+Copy the rclone.conf to $HOME/.config/rclone/.Copyright
+Copy the '*.service' files to /etc/systemd/system/. You will need sudo.
+Modify the $HOME & $remote in the service file according to the rclone.conf.
+Edit the /etc/fuse.conf to allow others. Just need to uncomment the appropriate line. You will need sudo.
+Run the following commands.
+Sudo systemctl daemon-reload
+sudo systemctl enable rclone-mount-* #one command for each service file.
+sudo systemctl start rclone-mount-* # one command for each service file.
+
+All set.
