@@ -1,0 +1,1 @@
+/home/ishan/linux-dotfiles/nvim/lua/plugins/colorscheme-nord.lua

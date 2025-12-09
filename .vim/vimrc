@@ -4,9 +4,9 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set hlsearch
-colorscheme catppuccin_mocha " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+colorscheme nord " catppuccin_mocha, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
 set laststatus=2
-let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+let g:lightline = {'colorscheme': 'nord'}
 set noshowmode
 let mapleader = " " 
 nnoremap <silent> <leader>e :if &filetype == 'netrw' <bar> q <bar> else <bar> Vexplore <bar> endif<CR>
