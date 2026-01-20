@@ -14,3 +14,7 @@ PS1='[\u@\h \W]\$ '
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/custom_theme.omp.json)"
 
 export NVIM_APPNAME="nvim.lazyvim" #use astro/chad/kickstart/lazyvim
+
+if command -v pyenv 1>/dev/null 2>&1; then
+   eval "$(pyenv init - bash)" 
+fi

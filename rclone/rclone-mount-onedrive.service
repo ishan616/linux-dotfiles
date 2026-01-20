@@ -7,13 +7,11 @@ Wants=network-online.target
 [Service]
 Type=notify
 ExecStartPre=/bin/mkdir -p /home/ishan/CloudStorages/Onedrive
-ExecStart=/usr/bin/rclone mount Onedrive: /home/ishan/CloudStorages/Onedrive \
+ExecStart=/usr/bin/rclone mount OneDrive: /home/ishan/CloudStorages/Onedrive \
     --config=/home/ishan/.config/rclone/rclone.conf \
     --allow-other \
     --allow-non-empty \
-    --vfs-cache-mode full \
-    --log-file /var/log/rclone-mount-onedrive-stevens.log \
-    --log-level INFO
+    --vfs-cache-mode full
 ExecStop=/bin/fusermount -u /home/ishan/CloudStorages/Onedrive
 Restart=on-failure
 User=ishan
